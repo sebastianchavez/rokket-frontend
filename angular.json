@@ -28,6 +28,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -92,6 +94,8 @@
               "src/assets"
             ],
             "styles": [
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "./node_modules/ngx-bootstrap/datepicker/bs-datepicker.css",
               "src/styles.scss"
             ],
             "scripts": []
@@ -123,6 +127,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "rokket-frontend"
+    }
+  },
+  "defaultProject": "rokket-frontend",
+  "cli": {
+    "analytics": "7d6b7e7a-9837-4797-aa22-a02643b5353c"
+  }
 }

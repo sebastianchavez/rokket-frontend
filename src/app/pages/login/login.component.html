@@ -1,0 +1,34 @@
+<div class="container">
+    <div class="row pt-5">
+        <div class="col-md-4 offset-md-4">
+            <div class="card card-body">
+                <form [formGroup]="loginForm" (ngSubmit)="onSubmit(loginForm.value)">
+                    <h4>Ingresa tus credenciales</h4>
+                    <div class="form-group">
+                        <label for="">Email</label>
+                        <input type="text" formControlName="email" [ngClass]="{ 'is-invalid': submitted && f.email.errors }" class="form-control"
+                        placeholder="Email" required>
+                        <div *ngIf="submitted && f.email.errors" class="invalid-feedback">
+                            <div *ngIf="f.email.errors.required">Email es requerido</div>
+                            <div *ngIf="f.email.errors.email">Email inválido</div>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="">Password</label>
+                        <input type="password" formControlName="password"
+                        [ngClass]="{ 'is-invalid': submitted && f.password.errors }" class="form-control"
+                        placeholder="Contraseña" required>
+                        <div *ngIf="submitted && f.password.errors" class="invalid-feedback">
+                            <div *ngIf="f.password.errors.required">Contraseña es requerida</div>
+                            <div *ngIf="f.password.errors.minlength">Minimo 6 caracteres</div>
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-rokket btn-block" [disabled]="btnLoad">
+                        <span *ngIf="btnLoad" class="spinner-border spinner-border-sm"></span>
+                        Ingresar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>

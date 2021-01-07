@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+// Paleta colores: https://flatuicolors.com/palette/us
+
+
+.btn-rokket {
+    color: white;
+    background-color: #6c5ce7;
+}
+
+.btn-rokket:hover {
+    color: white;
+    background-color: #a29bfe;
+}
+
+.btn-icon {
+    color: #d63031;
+    background-color: transparent;
+    border: 1px solid #d63031;
+}
+
+.btn-icon:hover {
+    color: #ff7675;
+    background-color: transparent;
+    border: 1px solid #ff7675;
+}
