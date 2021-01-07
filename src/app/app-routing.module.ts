@@ -5,7 +5,7 @@ import { LoginComponent } from './pages/login/login.component';
 import { IsLoggedInGuard } from './guards/is-logged-in.guard';
 
 const routes: Routes = [
-  { path: '', component: HomeComponent, canActivate:[IsLoggedInGuard] },
+  { path: '', component: HomeComponent, canActivate: [IsLoggedInGuard] },
   { path: 'login', component: LoginComponent }
 ];
 

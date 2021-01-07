@@ -13,7 +13,7 @@ import { ModalModule } from 'ngx-bootstrap/modal';
 import { SweetAlert2Module } from '@sweetalert2/ngx-sweetalert2';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { InterceptorService } from './interceptors/interceptor.service';
-import { TranslatePipe } from './pipes/translate.pipe'
+import { TranslatePipe } from './pipes/translate.pipe';
 
 @NgModule({
   declarations: [

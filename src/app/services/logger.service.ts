@@ -30,7 +30,7 @@ export class LoggerService {
           try {
             data2 = data;
           } catch (err) {
-            console.log('logger trycatch error: ', err)
+            console.log('logger trycatch error: ', err);
           }
           if (type == 'LOG') {
             console.log('@@@@@ Page[', page, ']', ' --Func[', functionName, '] -->[', data2, ']');

@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { environment } from 'src/environments/environment'
+import { environment } from 'src/environments/environment';
 import { Observable } from 'rxjs';
 
 @Injectable({
@@ -8,13 +8,13 @@ import { Observable } from 'rxjs';
 })
 export class UserService {
 
-  baseUrl = environment.apiUrl
-  url = '/users/login'
+  baseUrl = environment.apiUrl;
+  url = '/users/login';
 
   constructor(private http: HttpClient) { }
 
   login(request): Observable<any> {
-    return this.http.post(`${this.baseUrl}${this.url}`, request)
+    return this.http.post(`${this.baseUrl}${this.url}`, request);
   }
-  
+
 }

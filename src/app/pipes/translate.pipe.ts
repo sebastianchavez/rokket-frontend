@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import DICTIONARY from '../constants/dictionary'
+import DICTIONARY from '../constants/dictionary';
 
 @Pipe({
   name: 'translate'

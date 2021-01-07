@@ -1,27 +1,50 @@
-# RokketFrontend
+# Rokket Frontend
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.0.5.
+Proyecto Frontend con Angular para Rokket labs el cual permite ejecutar funcionalidades desde el navegador
 
-## Development server
+## Comenzando 🚀
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
++ [Descargar desde github](https://github.com/sebastianchavez/rokket-frontend.git) 
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+### Pre-requisitos 📋
 
-## Build
+Es necesario tener instalado NodeJs una version mayor a la 12
+En lo posible última versión de NodeJs: https://nodejs.org/es/
+Es necesario tener instalado Angular-CLI desde la versión 10
+En lo posible última versión de Angular-CLI: https://cli.angular.io/
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
 
-## Running unit tests
+### Instalación 🔧
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Una vez instalado NodeJs ejecutar comando
+```
+npm install
+```
 
-## Running end-to-end tests
+## Despliegue 📦
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+Para ejecutar aplicación para conceptos de pruebas o desarrollo ejecutar comandos
+```
+ng serve
+```
 
-## Further help
+Para compilar projecto ejecutar
+```
+ng build --prod
+```
+Traspasar codigo compilado en servidor Web ubicado en /dist
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+
+## Construido con 🛠️
+
+* [Angular](https://angular.io/) - El framework para construcción WEB
+* [NGX-Bootstrap](https://valor-software.com/ngx-bootstrap/#/) - Framwork de diseño
+
+## Versionado 📌
+
+Usamos [GIT](https://git-scm.com/) para el versionado.  [repositorio de proyecto](https://github.com/sebastianchavez/rokket-frontend).
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (MIT)

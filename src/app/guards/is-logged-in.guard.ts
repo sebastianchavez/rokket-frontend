@@ -10,12 +10,12 @@ export class IsLoggedInGuard implements CanActivate {
 
   }
   async canActivate(){
-    const isLogin = await localStorage.getItem('isLoggedIn')
-    if(isLogin){
+    const isLogin = await localStorage.getItem('isLoggedIn');
+    if (isLogin){
       return true;
     } else {
-      this.router.navigateByUrl('/login')
+      this.router.navigateByUrl('/login');
     }
   }
-  
+
 }
