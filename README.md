@@ -4,7 +4,7 @@ Proyecto Frontend con Angular para Rokket labs el cual permite ejecutar funciona
 
 ## Comenzando 🚀
 
-+ [Descargar desde github](https://github.com/sebastianchavez/rokket-frontend.git) 
++ [Descargar desde github](https://github.com/sebastianchavez/rokket-frontend-react.git) 
 
 
 ### Pre-requisitos 📋
@@ -43,7 +43,7 @@ Traspasar codigo compilado en servidor Web ubicado en /dist
 
 ## Versionado 📌
 
-Usamos [GIT](https://git-scm.com/) para el versionado.  [repositorio de proyecto](https://github.com/sebastianchavez/rokket-frontend).
+Usamos [GIT](https://git-scm.com/) para el versionado.  [repositorio de proyecto](https://github.com/sebastianchavez/rokket-frontend-react).
 
 ## Licencia 📄
 

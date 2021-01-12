@@ -1,5 +1,5 @@
 import { Component, OnInit, TemplateRef } from '@angular/core';
-import { faTrash } from '@fortawesome/free-solid-svg-icons';
+import { faTrash } from '@fortawesome/free-solid-svg-icons';  
 import Swal from 'sweetalert2';
 
 import { AnimalService } from 'src/app/services/animal.service';
